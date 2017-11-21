@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+    <script
+     src="https://code.jquery.com/jquery-3.2.1.js"
+     integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+     crossorigin="anonymous">
+   </script>
+   <script type="text/javascript" src="main.js">
+
+   </script>
+  </head>
+  <body>
+    <form method="post" >
+      <p>
+          <label for="">correo:</label>
+          <input type="text" name="correo" id="correo" required/ class="input-text">
+      </p>
+
+      <p>
+        <label for="">contraseña</label>
+        <input type="text" name="pass" id="pass" class="input-text"/>
+      </p>
+
+      <p>
+        <label for="">sexo</label>
+        <input type="radio" name="gender" value="f" id="femenino"/>
+        <label for="femenino">femenino</label>
+        <input type="radio" name="gender"value="m" id="masculino"/>
+        <label for="masculino">masculino</label>
+      </p>
+      <p>
+           </p>
+
+      <p>
+        <label for="">intereses</label>
+        <input type="checkbox" name="interest"value="tec" id="tec"/>
+        <label for="tec">tecnologia</label>
+        <input type="checkbox" name="interest"value="sport" id="sport"/>
+        <label for="sport">deportes</label>
+        <input type="checkbox" name="interest"value="dev" id="dev"/>
+        <label for="dev">desarrollo</label>
+      </p>
+       <p>
+            <textarea name="textarea" rows="10" cols="50">escribe tu comentario</textarea>
+            
+      <p>
+      <input type="submit" value="comentar">
+      </p>
+
+    </form>
+
+  </body>
+</html>
